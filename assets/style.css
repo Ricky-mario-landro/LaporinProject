@@ -202,6 +202,7 @@ footer p a, footer p a:hover {
 
     .jarak {
         margin: 0 25%;
+        margin-bottom: 5%;
     }
 
     .tata-Cara {
@@ -209,6 +210,13 @@ footer p a, footer p a:hover {
         margin-bottom: 26%;
     }
 
+}
+
+@media screen and (max-width: 834px) {
+    .jarak {
+        margin: 0 25%;
+        margin-bottom: 5%;
+    }
 }
 
 ::-webkit-scrollbar {
