@@ -214,6 +214,13 @@ footer p a, footer p a:hover {
         margin-top: 8%;
     }
 
+    .jumbotron img {
+        margin-left: 20%;;
+    }
+
+    h1.judulTengah {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 884px) {
@@ -225,6 +232,16 @@ footer p a, footer p a:hover {
     .textFormPel {
         margin-top: 8%;
     }
+
+    .jumbotron img {
+        margin-left: -11%;
+        width: 120%;
+    }
+
+    h1.judulTengah {
+        font-size: 24px;
+    }
+
 }
 
 ::-webkit-scrollbar {
@@ -241,6 +258,37 @@ footer p a, footer p a:hover {
 }
 
 .jumbotron {
-    background-color: #16213E;
     color: #ffc107;
+    background-color: #16213E;
+}
+
+.jumboImage{
+    margin-left: 20%;
+    width: 60%;
+}
+
+.footer {
+    background-color: #16213E;
+    color: #fff;
+    height: 50px;
+    padding-top: 1%;
+}
+
+.footerDuo {
+    background-color: #16213E;
+    color: #fff;
+    height: 50px;
+}
+
+.footerDuo p {
+    padding-top: 1%;
+    color: #fff;
+}
+
+a.fw-bold {
+    color: #ffc107;
+}
+
+a.fw-bold:hover {
+    color: #E30022;
 }
