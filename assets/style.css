@@ -210,12 +210,20 @@ footer p a, footer p a:hover {
         margin-bottom: 26%;
     }
 
+    .textFormPel {
+        margin-top: 8%;
+    }
+
 }
 
 @media screen and (max-width: 884px) {
     .jarak {
         margin: 0 25%;
         margin-bottom: 5%;
+    }
+
+    .textFormPel {
+        margin-top: 8%;
     }
 }
 
@@ -236,5 +244,3 @@ footer p a, footer p a:hover {
     background-color: #16213E;
     color: #ffc107;
 }
-
-
